@@ -1,0 +1,35 @@
+# Отдел 3
+sot3_1=Sotrudnik(1,"Ivanov",3)
+sot3_2=Sotrudnik(2,"Asidorov",3)
+sot3_3=Sotrudnik(3,"Adiva",3)
+
+stl_sotr_3=[]
+stl_sotr_3.append(sot3_1)
+stl_sotr_3.append(sot3_2)
+stl_sotr_3.append(sot3_3)
+
+otd3=Otdel(3,"SoftWare",stl_sotr_3)
+otd3.print_otdel()
+otd3.print_sotr()
+otd3.print_sotr_fam_A()
+otd3.print_kol_sotr()
+
+# Отдел 1
+sot1_1=Sotrudnik(1,"Alpatov",1)
+sot1_2=Sotrudnik(2,"Asova",1)
+sot1_3=Sotrudnik(3,"Atina",1)
+
+stl_sotr_1=[]
+stl_sotr_1.append(sot1_1)
+stl_sotr_1.append(sot1_2)
+stl_sotr_1.append(sot1_3)
+
+otd1=Otdel(1,"Programming C1",stl_sotr_1)
+otd1.print_otdel()
+otd1.print_sotr()
+otd1.print_sotr_fam_A()
+otd1.print_kol_sotr()
+
+#Список отделов
+stl_otd.append(otd1)
+stl_otd.append(otd3)
